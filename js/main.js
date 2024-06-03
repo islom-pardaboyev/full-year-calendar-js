@@ -93,7 +93,7 @@ nextBtn.addEventListener('click', () => {
 });
 
 function updateCalendar() {
+    yearTxt.innerHTML = currentYear;
     monthsWrapper.innerHTML = '';
     getCalendar();
-    yearTxt.innerHTML = currentYear;
 }
